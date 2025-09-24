@@ -214,18 +214,20 @@ background-color: rgb(73, 95, 193);
 background-color: coral;
 color: darkmagenta;
 }
+
+
 @media(max-width:560px){
 .meun{
 transition: 0.5s;
 }
 .meun:hover{
 z-index: 100;
-width: 170vw;
+width: 200vw;
 height: 800px;
 }
-.meun:hover .content{
-margin: 0;
-width: 20%;
+.content{
+/* margin: 0; */
+width: 80%;
 }
 .profile{
 gap: 10px;
