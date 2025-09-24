@@ -2,41 +2,40 @@
 padding: 0;
 margin: 0;
 color: #ffff;
-font-family: sans-serif;g
+font-family: sans-serif;
 }
 
 body{
-    background-color:rgb(24, 45, 67);
-    display: flex;
+background-color: rgb(24, 45, 67);
+display: flex;
 }
 
 .img-box{
-    width: 70px;
-    height: 70px;
-    border-radius:50px;
-    overflow: hidden;
-    border: 3px solid whitesmoke;
-    flex-shrink: 0;
+width: 70px;
+height: 70px;
+border-radius:50px;
+overflow: hidden;
+border: 3px solid whitesmoke;
+flex-shrink: 0;
 
 }
 
 .img-box img{
-    width: 100%;
+width: 100%;
 }
 
 .profile{
-    transition: 0.5s;
-    opacity: 0;
-    visibility: hidden;
-    display: flex;
-    align-items: center;
-    gap: 30px;
+transition: 0.5s;
+opacity: 0;
+visibility: hidden;
+display: flex;
+align-items: center;
+gap: 30px;
 }
 
 .profile h2{
-    font-size: 20px;
-    text-transform: capitalize;
-
+font-size: 20px;
+text-transform: capitalize;
 }
 
 .meun{
@@ -51,165 +50,160 @@ transition: 0.5s;
 }
 
 .meun:hover{
-    width: 25vw;
-    height: 700px;
-    
+
+width: 25vw;
+height: 800px;
 }
 .meun:hover .log-out a{
     background-color: rgb(177, 172, 209);
 }
 .meun:hover ul li a p{
-    opacity: 1;
-    visibility: visible;
+opacity: 1;
+visibility: visible;
 }
 .meun:hover .profile{
-    opacity: 1;
-    visibility: visible;
+opacity: 1;
+visibility: visible;
 
 }
 
 
 ul{
-    padding: 20px;
-    transition: 0.5s;
-    list-style: none;
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    
-    
+padding: 20px;
+transition: 0.5s;
+list-style: none;
+position: absolute;
+left: 10px;
+top: 10px;
 }
 
 ul li a{
-    display: block;
-    text-decoration: none;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    transition: 0.5s;
+display: block;
+text-decoration: none;
+padding: 10px;
+margin: 10px 0;
+border-radius: 8px;
+display: flex;
+align-items: center;
+gap: 40px;
+transition: 0.5s;
 }
 ul li a p{
-    transition: 0.5s;
-    opacity: 0;
-    visibility: hidden;
+transition: 0.5s;
+opacity: 0;
+visibility: hidden;
 }
 
 ul li  a:hover, .active{
-    background-color: rgba(214, 225, 239, 0.578);    color: rgb(53, 80, 107);
-    
+background-color: rgba(214, 225, 239, 0.578);  
+color: rgb(53, 80, 107);
 } 
 
 
 .ul li  .active i ,
-.ul li  .active p ,
-.data-info .box :hover,  {
-    color: #123;
-    
+.ul li  .active p {
+color : #123;
 }
 
 .log-out{
-    position: absolute;
-    bottom: -200px;
-    width: 100%;
+position: absolute;
+bottom: -200px;
+width: 100%;
 
 }
 
 .log-out a{
-    transition: 0.5s;
-    background-color: rgba(65, 95, 134, 0.578);
+transition: 0.5s;
+background-color: rgba(65, 95, 134, 0.578);
 }
 
 ul li a i{
-    font-size: 30px;
+font-size: 30px;
 
 }
 
 .content{
-    width: 100%;
-    margin: 10PX;
+width: 100%;
+margin: 10px;
 }
 
+
+
 .title-info{
-    background-color: rgb(47, 47, 110);
-    padding: 10PX;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 8px;
-    margin: 10px 0;
+background-color: rgb(47, 47, 110);
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 8px;
+margin: 10px 0;
 }
 
 .data-info{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 10px;
 }
 
 .data-info .box{
-    background-color: rgb(46, 85, 157);
-    height: 150px;
-    flex-basis: 150px;
-    flex-grow: 1;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+background-color: rgb(46, 85, 157);
+height: 150px;
+flex-basis: 150px;
+flex-grow: 1;
+border-radius: 8px;
+display: flex;
+align-items: center;
+justify-content: space-around;
 }
 
 .data-info .box:hover{
-        background-color: rgb(73, 95, 193);
+background-color: rgb(73, 95, 193);
 }
 
 
 .data-info .box i{
-    font-size: 40px;
+font-size: 40px;
 
 }
 
 .data-info .box .data{
-    text-align: center;
-
+text-align: center;
 }
 
 .data-info .box .data span{
-    font-size: 30px;
-    
+font-size: 30px;
 }
 
 .table{
-    width: 100%;
-    text-align: center;
-    border-spacing: 8px;
+width: 100%;
+text-align: center;
+border-spacing: 8px;
 
 }
 td, th{
-    background-color: rgb(37, 68, 105);
-    height: 40px;
-    border-radius: 8px;
-    text-align: center;
-    width:400px;
+background-color: rgb(37, 68, 105);
+height: 40px;
+border-radius: 8px;
+text-align: center;
+width:400px;
 }
 
 th{
-    background-color: rgb(65, 65, 181);
-    /* width: 300 px; */
+background-color: rgb(65, 65, 181);
+/* width: 300 px; */
 }
 th:hover{
-    background-color: rgb(73, 95, 193);
+background-color: rgb(73, 95, 193);
 }
 
 td:hover{
 background-color: rgb(73, 95, 193);}
 
 .price, .count{
-    padding: 6px;
-    border-radius: 6px;
-
+padding: 6px;
+border-radius: 6px; 
 }
 
 .price{
@@ -217,6 +211,49 @@ background-color: rgb(73, 95, 193);
 }
 
 .count{
-    background-color: coral;
-    color: darkmagenta;
+background-color: coral;
+color: darkmagenta;
+}
+@media(max-width:560px){
+.meun{
+transition: 0.5s;
+}
+.meun:hover{
+z-index: 100;
+width: 170vw;
+height: 800px;
+}
+.meun:hover .content{
+margin: 0;
+width: 20%;
+}
+.profile{
+gap: 10px;
+}
+.profile h2{
+font-size: 15px;
+}
+}
+@media(max-width:360px){
+.meun{
+transition: 0.5s;
+}
+.meun:hover{
+z-index: 100;
+width: 300vw;
+height: 800px;
+}
+.data-info .box{
+height: 90px;
+}
+.content{
+/* margin: 0; */
+width: max-content;
+}
+.profile{
+gap: 4px;
+}
+.profile h2{
+font-size: 15px;
+}
 }
